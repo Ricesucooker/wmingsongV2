@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import "tailwindcss";
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+html,
+body{
+  overflow-x: hidden;
+  height: 100%;
+  background-color: #1C1C1C;
+  color:#F5F5DC;
+}
+
+
+@layer utilities {
+
+  .flex-center{
+  @apply flex items-center justify-center
+  }
+
+  .icon-size{
+    @apply w-[150px] h-[150px]
+  }
+
+  .container{
+    @apply  flex flex-col items-center gap-8
+  }
+
+  .profile{
+    @apply  hover:border-4 hover:border-amber-50 hover:scale-125 text-center
+  }
+
+  .profile-container{
+    @apply flex flex-wrap gap-20 justify-center 
+  }
+
+  .page-basiclayout{
+    @apply w-full h-lvh
+  }
+
+  .nav-height{
+    @apply h-[calc(100vh-60px)];
+  }
+
+}
+@theme {
+  --animate-fadeInscale: fadeInscale 0.3s ease-out;
+ 
+
+  @keyframes fadeInscale{
+  0%{
+    opacity: 0;
+    transform: scale(1.2);
+  }100%{
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+}
