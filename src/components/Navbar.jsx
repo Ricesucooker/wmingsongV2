@@ -1,21 +1,22 @@
-import { Link } from 'react-router-dom';
-
+import { NavLink, Link } from 'react-router-dom';
+import "./navstyle.css";
 
 function Navbar() {
   return (
 
-    <nav className='h-16 bg-green-500 flex flex-wrap mx-auto items-center w-screen'>
-        <div className='font-bold decoration-0 text-3xl'>
-            <a>W.Mingsong</a>
+    <nav>
+       
+        <div className="wming">
+            W.Mingsong
         </div>
 
-        <div >
-            <ul className='flex flex-row gap-4 ' >
+        <div>
+            <ul >
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/Top">Top</Link></li>
-                <li><Link to="/Recuiter">Recuiter</Link></li>
-                <li><Link to="/Photography">Photography</Link></li>
-                <li><Link to="/Project">Project</Link></li>
+                <li><NavLink to="/Top">Top</NavLink></li>
+                <li><NavLink to="/Recuiter">Recuiter</NavLink></li>
+                <li><NavLink to="/Photography">Photography</NavLink></li>
+                <li><NavLink to="/Project">Project</NavLink></li>
             </ul>
         </div>
     </nav>

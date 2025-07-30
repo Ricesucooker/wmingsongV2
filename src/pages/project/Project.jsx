@@ -4,7 +4,7 @@ import Navbar from '../../components/Navbar'
 function Project() {
   return (
     <>
-    <Navbar />
+    <header><Navbar /></header>
     <main>
       show off some project here and there
     </main>

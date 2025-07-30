@@ -4,10 +4,11 @@ import Navbar from '../../components/Navbar'
 function Photography() {
   return (
      <>
-     <Navbar />
+     <header><Navbar /></header>
      <main>
       <div>
-        lets show off here
+       <p>Capture The Moment</p>
+       <p>@matchaxmoment</p>
       </div>
      </main>
     </>

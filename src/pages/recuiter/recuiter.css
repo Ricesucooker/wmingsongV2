@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+.work ul li{
+padding: 0 8px;
+}
+
+.work-exp{
+    box-shadow: 0 4px 8px 0 rgba(142, 139, 139, 0.3);
+    transition: 0.3s;
+    padding:  4px 16px;
+    margin: 4px;
+}
+
+.work-exp:hover{
+box-shadow: 0 8px 16px 0 rgba(142, 139, 139, 0.3);
+}

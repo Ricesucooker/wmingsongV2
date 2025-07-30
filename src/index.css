@@ -45,10 +45,6 @@ body{
     @apply w-full h-lvh
   }
 
-  .nav-height{
-    @apply h-[calc(100vh-60px)];
-  }
-
 }
 @theme {
   --animate-fadeInscale: fadeInscale 0.3s ease-out;

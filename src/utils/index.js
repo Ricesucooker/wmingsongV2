@@ -18,6 +18,11 @@ import nobrainIcon from "../assets/images/nobrain_icon.jpg";
 import topPicture from "../assets/images/topSprings.jpg";
 import wMing from "../assets/images/wming.jpg";
 
+//video
+import wmingMP4 from "../assets/video/WebHerovideo.mp4"
+
+export const heroMP4 = wmingMP4;
+
 export const topPic =topPicture;
 export const wmingJPG = wMing;
 
