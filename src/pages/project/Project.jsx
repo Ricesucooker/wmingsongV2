@@ -6,7 +6,7 @@ import { memeImg } from '../../utils'
 function Project() {
   return (
     <>
-    <header><Navbar /></header>
+    <Navbar />
     <main>
       <div className="flex-center flex-col w-svw">
         <p className=' font-bold text-3xl' >Coming Soon!..</p>

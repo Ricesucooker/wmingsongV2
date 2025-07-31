@@ -5,7 +5,7 @@ import { instaIcon, imgOne, imgTwo, imgThree, imgFour, imgFive, imgSix } from '.
 function Photography() {
   return (
      <>
-     <header><Navbar /></header>
+     <Navbar />
      <main>
       <div>
 

@@ -1,16 +1,17 @@
 import React from 'react';
 import Navbar from "../../components/Navbar.jsx"
+import Skillslist from '../../components/Skillslist.jsx';
 import { topPic, linkedinIcon, instaIcon, githubIcon, emailIcon, heroMP4  } from '../../utils/index.js';
 import "./top.css"
 
 function Top() {
   return ( 
     <>
-    <header><Navbar /></header>
+    
 
     <main>
-    
-      <div className="w-full">
+    <Navbar />
+    <div className="w-full">
         
         <div className="flex flex-col">
     <section>    
@@ -28,9 +29,10 @@ function Top() {
         </div>
         </div>
     </section>
-        <section className='h-screen'>
 
-          <div className="about flex flex-row justify-center gap-8">
+        <section className='w-full'>
+
+          <div className="about flex flex-row justify-center gap-4">
 
             <div className='about-me'>
             <h2 className="text-2xl">About:</h2>
@@ -61,16 +63,19 @@ function Top() {
               </div>
             </div>  
           </div>
-          <div>
-
-            <p>Characters Base Ability</p>
-            will fill this session in same as recuiter 
-
-          </div>
           </section>
+            <div className="fix-ceneter ">
+              <Skillslist />
+          </div>
+          
         </div>
       </div>
+      <div>
+        
+      </div>
     </main>
+    
+    
     </>
   )
 }

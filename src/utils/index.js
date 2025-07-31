@@ -8,6 +8,8 @@ import iconLinkedin from "../assets/images/icons8-linkedin.svg";
 import iconEmail from "../assets/images/icons8-email.svg";
 
 
+
+
 //icons
 import catIcon from "../assets/images/cat_icon.jpg";
 import elainaIcon from "../assets/images/elaina_icon.jpg";
@@ -51,4 +53,6 @@ export const iconCat = catIcon;
 export const iconElaina = elainaIcon;
 export const iconPaimon = pimonIcon;
 export const iconNobrain = nobrainIcon;
+
+
 

@@ -2,11 +2,12 @@ import React from 'react'
 import Navbar from '../../components/Navbar'
 import { wmingJPG, githubIcon,emailIcon,linkedinIcon } from '../../utils'
 import "./recuiter.css"
+import Skillslist from '../../components/Skillslist'
 
 function Recuiter() {
   return (
     <>
-    <header><Navbar /></header>
+    <Navbar />
     <main>
       <section>
       <div className="w-full flex-center ">
@@ -41,7 +42,7 @@ function Recuiter() {
         </section>
 
         <sectio>
-          Skills section
+         <Skillslist />
         </sectio>
 
         <section>
