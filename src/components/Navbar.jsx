@@ -4,21 +4,21 @@ import "./navstyle.css";
 function Navbar() {
   return (
 
-    <nav>
+    <nav className='sticky top-0 z-50 p-4 w-full'>
        
         <div className="wming">
-            W.Mingsong
+            <Link to="/">W.Mingsong</Link>
         </div>
 
         <div>
             <ul >
-                <li><Link to="/">Home</Link></li>
                 <li><NavLink to="/Top">Top</NavLink></li>
                 <li><NavLink to="/Recuiter">Recuiter</NavLink></li>
                 <li><NavLink to="/Photography">Photography</NavLink></li>
                 <li><NavLink to="/Project">Project</NavLink></li>
             </ul>
         </div>
+        
     </nav>
   )
 }
