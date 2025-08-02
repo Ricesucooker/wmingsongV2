@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../../components/Navbar'
 import { memeImg } from '../../utils'
+import Footer from '../../components/Footer'
 
 
 function Project() {
@@ -13,6 +14,7 @@ function Project() {
         <img src={memeImg} alt='project-image' />
       </div>
     </main>
+   <Footer />  
     </>
     
   )

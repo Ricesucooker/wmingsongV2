@@ -3,54 +3,60 @@ import Navbar from '../../components/Navbar'
 import { wmingJPG, githubIcon,emailIcon,linkedinIcon } from '../../utils'
 import "./recuiter.css"
 import Skillslist from '../../components/Skillslist'
+import Footer from '../../components/Footer'
 
 function Recuiter() {
   return (
     <>
     <Navbar />
     <main>
+     
       <section>
-      <div className="w-full flex-center ">
 
-        <div className='w-1/3'>
+      <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16">
+
+        <div className="w-full md:w-1/2 max-w-xl">
           <h1 className="text-3xl font-bold">
             Woraphong Mingsong
           </h1>
           <p className="text-xl">'Top'</p>
-          <div className='indent-8'>        
-          <p>
+          <div className="mt-4">        
+          <p className="text-gray-500 leading-relaxed">
             An accomplished and highly adaptable professional with extensive IT support and consulting experience, now focused on Cloud-focused <span className='font-bold'>Development, DevOps, and Site Reliability Engineering (SRE)</span>. My background as a Software Support Specialist II includes critical system troubleshooting, automating processes with <span className='font-bold'>PowerShell</span> scripts to enhance efficiency, and ensuring data integrity through expert <span className='font-bold'>MySQL database management</span>. As a Technical Consultant, I successfully managed network infrastructure upgrades, facilitated file migrations to SharePoint, and handled cloud-based Identity Access Management (IAM) for clients, including migrations to Azure Intune.
           <br/>
             My commitment to cloud technology is validated by certifications such as <span className='font-bold'>AWS Solutions Architect - Associate, AWS Developer - Associate, AWS Cloud Practitioner</span>, and <span className='font-bold'>Azure Fundamentals (AZ900)</span>. I actively apply my scripting and automation skills and explore security best practices, including OWASP methodologies, with an interest in penetration testing.
             <br/>
             I am seeking challenging opportunities where I can leverage my blend of hands-on support, automation expertise, and cloud development capabilities to drive operational excellence and system resilience.
-          </p>
-
-         
+          </p>         
           </div>
         </div>
 
-        <div>
-          <img src={wmingJPG} className="h-auto w-sm grayscale-50 rounded-4xl"/>
-                <ul className="flex flex-nowrap justify-around grayscale-75 ">
-                          <li><a href="mailto:wmingsong.dev@gmail.com"><img src={emailIcon} /> </a></li>
-                          <li><a href="https://www.linkedin.com/in/woraphong-mingsong/" target="_blank"><img src={linkedinIcon}/> </a></li>
-                          <li><a href="https://github.com/Ricesucooker" target="_blank"><img src={githubIcon} /> </a></li>
-                        </ul> 
+        <div className="flex flex-col items-center mt-8 md:mt-0">
+          <div>
+            <img src={wmingJPG} className="w-60 h-60 md:w-80 md:h-80 object-cover grayscale-50 rounded-4xl"/>
+          </div>
+          <div>
+            <ul className="flex flex-nowrap items-center justify-around grayscale-75 w-full">
+                  <li><a href="mailto:wmingsong.dev@gmail.com"><img src={emailIcon} /> </a></li>
+                  <li><a href="https://www.linkedin.com/in/woraphong-mingsong/" target="_blank"><img src={linkedinIcon}/> </a></li>
+                  <li><a href="https://github.com/Ricesucooker" target="_blank"><img src={githubIcon} /> </a></li>
+                 </ul>
+          </div>
         </div>
         </div>
         </section>
 
-        <sectio>
-         <Skillslist />
-        </sectio>
+        <section className="mt-8">
+        <div className=" flex flex-col-reverse md:flex-col items-center justify-center">
 
-        <section>
-        <div className="flex-center">
+          <div>
+             <Skillslist />
+          </div>
+              
 
          <div className='work'>
           <p className="text-2xl font-bold">Work History</p>
-          <a className="text-gray-600" href="https://www.dropbox.com/scl/fi/kxof4wxkzn6vj9twwohmy/Woraphong_Mingsong_CV_updated.pdf?rlkey=1fxqtmgf04oal0buxtnyc3n8o&st=6n9y61bi&dl=1" target="_blank">Full Resume</a>
+          <a className="text-gray-500" href="https://www.dropbox.com/scl/fi/kxof4wxkzn6vj9twwohmy/Woraphong_Mingsong_CV_updated.pdf?rlkey=1fxqtmgf04oal0buxtnyc3n8o&st=6n9y61bi&dl=1" target="_blank">Full Resume</a>
          
           <div className="work-exp">
             <p className="font-bold">ConnectWise</p>
@@ -89,6 +95,7 @@ function Recuiter() {
          </div>
         </section>
     </main>
+    <Footer />  
     </>
   )
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../../components/Navbar'
 import { instaIcon, imgOne, imgTwo, imgThree, imgFour, imgFive, imgSix } from '../../utils'
+import Footer from '../../components/Footer'
 
 function Photography() {
   return (
@@ -9,7 +10,7 @@ function Photography() {
      <main>
       <div>
 
-        <div className=" flex flex-col">
+        <div className=" flex flex-col gap-8">
 
           <p className='flex-center text-6xl font-bold'>Capture The Moment</p>
           
@@ -17,7 +18,7 @@ function Photography() {
 
         </div>
         <div className="flex-center w-svw">
-          <div className="grid grid-cols-3 gap-3">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             <div>
               <img src={imgOne} />
             </div>
@@ -42,6 +43,7 @@ function Photography() {
     
       </div>
      </main>
+     <Footer />
     </>
   )
 

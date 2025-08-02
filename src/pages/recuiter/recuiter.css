@@ -3,7 +3,9 @@
 
 .work ul li{
 padding: 0 8px;
+color:#6a7282 ;
 }
+
 
 .work-exp{
     box-shadow: 0 4px 8px 0 rgba(142, 139, 139, 0.3);
@@ -15,3 +17,4 @@ padding: 0 8px;
 .work-exp:hover{
 box-shadow: 0 8px 16px 0 rgba(142, 139, 139, 0.3);
 }
+
