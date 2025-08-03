@@ -1,36 +1,8 @@
 @import "tailwindcss";
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    background-color: #1C1C1C;
-}
-
-nav .wming {
-    font-size: 1.5rem;
-    margin: 1rem;
-    font-weight: bold;
-    text-decoration: none;
-
-}
-
-nav ul {
-    display: flex;
-}
-
-nav ul li {
-    display: block;
-    text-decoration: none;
-    padding: 0.5rem;
-    margin: 0 0.5rem;
-    border-radius: 0.5rem;
-}
-
 .active {
     background-color:  #708238;
-    border-radius: 10rem;
+    border-radius: 14rem;
     transform: rotate(20deg);
+
 }

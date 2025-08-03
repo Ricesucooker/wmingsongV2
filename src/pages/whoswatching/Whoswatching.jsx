@@ -49,11 +49,11 @@ function Whoswatching() {
                     </a>
                     </div>
                 <div className="profile">
-                    <a href="/Recuiter">
+                    <a href="/Recruiter">
                     <div className="profile-icon profile2">
                         <img src={iconPaimon} alt="icon2" className="icon-size"/>        
                     </div>
-                    <div>Recuiter</div>
+                    <div>Recruiter</div>
                     </a>
                 </div>
                 <div className="profile">

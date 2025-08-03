@@ -34,7 +34,7 @@ function Top() {
 
         <section className="p-4 md:p-8  ">
 
-          <div className="flex-center md:flex-col md:h-svh ">
+          <div className="flex-center md:flex-col h-svh ">
           <div className="flex flex-col-reverse md:flex-row justify-center gap-8 md:gap-16 mb-8 ">
           
             <div className=" max-w-lg ">
@@ -55,11 +55,11 @@ function Top() {
                 <li><a href="https://www.instagram.com/matchaxmoments" target="_blank"><img src={instaIcon} /> </a></li>
               </ul> 
               </div>
-            </div>
+            </div>    
           </div>
           </div>
 
-          <div className="flex flex-col-reverse md:flex-col items-center justify-center">
+          <div className="flex h-svh flex-col-reverse md:flex-col items-center justify-center">
              <Skillslist />
           </div>
     
