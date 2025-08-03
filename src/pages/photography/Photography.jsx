@@ -14,7 +14,7 @@ function Photography() {
 
           <p className='flex-center text-6xl font-bold'>Capture The Moment</p>
           
-        <a href="https://www.instagram.com/matchaxmoments" type="_blank"> <p className='flex-center'><img className='w-5 grayscale-25' src={instaIcon} alt='instergram-icon' />@matchaxmoment</p></a>
+        <a href="https://www.instagram.com/matchaxmoments" type="_blank" rel="noopener"> <p className='flex-center'><img className='w-5 grayscale-25' src={instaIcon} alt='instergram-icon' />@matchaxmoment</p></a>
 
         </div>
         <div className="flex-center w-svw">

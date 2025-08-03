@@ -40,16 +40,16 @@ function Recuiter() {
           <div>
             <ul className="flex flex-nowrap items-center justify-around grayscale-75 w-full">
                   <li><a href="mailto:wmingsong.dev@gmail.com"><img src={emailIcon} /> </a></li>
-                  <li><a href="https://www.linkedin.com/in/woraphong-mingsong/" target="_blank"><img src={linkedinIcon}/> </a></li>
-                  <li><a href="https://github.com/Ricesucooker" target="_blank"><img src={githubIcon} /> </a></li>
+                  <li><a href="https://www.linkedin.com/in/woraphong-mingsong/" target="_blank" rel="noopener"><img src={linkedinIcon}/> </a></li>
+                  <li><a href="https://github.com/Ricesucooker" target="_blank" rel="noopener"><img src={githubIcon} /> </a></li>
                  </ul>
             </div>
 
             <div className=" flex flex-row text-sm tracking-tight">
-                <a href="https://www.credly.com/badges/0ad190d2-cb2b-4a2a-94a8-5f28e41e1600/public_url" target="_blank"><img src={azureFD} className="w-18 h-18 md:w-28 md:h-28 object-scale-down" alt="azure-fundamentals"/></a>
-                <a href="https://www.credly.com/badges/fbafd090-0b52-43d0-9686-e63d7f4b834c/public_url" target="_blank"><img src={awsCPP}  className="w-18 h-18 md:w-28 md:h-28 object-scale-down" alt="cloud-practitioner"/></a>
-                <a href="https://www.credly.com/badges/ed2e09a9-2a69-40fa-a279-c542740c0b2b/public_url" target="_blank"><img src={awsSA}   className="w-18 h-18 md:w-28 md:h-28 object-scale-down" alt="Solution-Architect"/></a>
-                <a href="https://www.credly.com/badges/85646d14-dbf2-415d-9cff-569979bc83dd/public_url" target="_blank"><img src={awsDA}   className="w-18 h-18 md:w-28 md:h-28 object-scale-down" alt="Developer-Associate"/></a>
+                <a href="https://www.credly.com/badges/0ad190d2-cb2b-4a2a-94a8-5f28e41e1600/public_url" target="_blank" rel="noopener"><img src={azureFD} className="w-18 h-18 md:w-28 md:h-28 object-scale-down" alt="azure-fundamentals"/></a>
+                <a href="https://www.credly.com/badges/fbafd090-0b52-43d0-9686-e63d7f4b834c/public_url" target="_blank" rel="noopener"><img src={awsCPP}  className="w-18 h-18 md:w-28 md:h-28 object-scale-down" alt="cloud-practitioner"/></a>
+                <a href="https://www.credly.com/badges/ed2e09a9-2a69-40fa-a279-c542740c0b2b/public_url" target="_blank" rel="noopener"><img src={awsSA}   className="w-18 h-18 md:w-28 md:h-28 object-scale-down" alt="Solution-Architect"/></a>
+                <a href="https://www.credly.com/badges/85646d14-dbf2-415d-9cff-569979bc83dd/public_url" target="_blank" rel="noopener"><img src={awsDA}   className="w-18 h-18 md:w-28 md:h-28 object-scale-down" alt="Developer-Associate"/></a>
             </div>
             </div>
             </div>
@@ -60,7 +60,7 @@ function Recuiter() {
         <section className="flex-center flex-col h-svh" >
          <div className="work ">
           <p className="text-2xl font-bold">Work History</p>
-          <a className="text-gray-500" href="https://www.dropbox.com/scl/fi/kxof4wxkzn6vj9twwohmy/Woraphong_Mingsong_CV_updated.pdf?rlkey=1fxqtmgf04oal0buxtnyc3n8o&st=6n9y61bi&dl=1" target="_blank">Full Resume</a>
+          <a className="text-gray-500 hover:bg-[#708238] hover:text-[#3b3b3b] hover:rounded-xl" href="https://www.dropbox.com/scl/fi/kxof4wxkzn6vj9twwohmy/Woraphong_Mingsong_CV_updated.pdf?rlkey=1fxqtmgf04oal0buxtnyc3n8o&st=6n9y61bi&dl=1" target="_blank" rel="noopener">Full Resume</a>
         
         </div>
         <div>

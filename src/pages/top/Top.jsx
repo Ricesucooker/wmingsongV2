@@ -49,10 +49,10 @@ function Top() {
               </div>
               <div>
                 <ul className="flex justify-around items-center mt-4 p-2 grayscale-50 ">
-                <li><a href="mailto:wmingsong.dev@gmail.com"><img src={emailIcon} /> </a></li>
-                <li><a href="https://www.linkedin.com/in/woraphong-mingsong/" target="_blank"><img src={linkedinIcon}/> </a></li>
-                <li><a href="https://github.com/Ricesucooker" target="_blank"><img src={githubIcon} /> </a></li>
-                <li><a href="https://www.instagram.com/matchaxmoments" target="_blank"><img src={instaIcon} /> </a></li>
+                <li><a href="mailto:wmingsong.dev@gmail.com" rel="noopener"><img src={emailIcon} /> </a></li>
+                <li><a href="https://www.linkedin.com/in/woraphong-mingsong/" target="_blank" rel="noopener"><img src={linkedinIcon}/> </a></li>
+                <li><a href="https://github.com/Ricesucooker" target="_blank" rel="noopener"><img src={githubIcon} /> </a></li>
+                <li><a href="https://www.instagram.com/matchaxmoments" target="_blank" rel="noopener"><img src={instaIcon} /> </a></li>
               </ul> 
               </div>
             </div>    
