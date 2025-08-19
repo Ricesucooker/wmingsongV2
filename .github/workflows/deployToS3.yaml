@@ -12,7 +12,7 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
       - uses: Ricesucooker/wmingsongV2@main
         with:
           node-version: 24
@@ -23,7 +23,7 @@ jobs:
       - name: Build
         run: npm run Build
       - name: Set AWS creds
-        uses: aws-actions/configure-aws-credentials@v1
+        uses: Ricesucooker/s3-upload-action@master
         with:
           aws-access-key-id: ${{ secrets.AWS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
