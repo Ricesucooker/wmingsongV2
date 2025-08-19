@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@master
-      - uses: Ricesucooker/wmingsongV2@master
+      - uses: Ricesucooker/wmingsongV2@main
         with:
           node-version: 24
       - name: Install dependencies
