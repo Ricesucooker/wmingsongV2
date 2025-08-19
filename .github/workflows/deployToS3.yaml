@@ -22,8 +22,9 @@ jobs:
         run: npm run lint
       - name: Build
         run: npm run Build
+
       - name: Set AWS creds
-        uses: Ricesucooker/wmingsongV2@main
+        uses: action/checkout@v2
         with:
           aws-access-key-id: ${{ secrets.AWS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
