@@ -16,18 +16,6 @@ jobs:
       - uses: Ricesucooker/s3-upload-action@master
         with:
           node-version: 24
-      - name: Caching app
-        id: wmingsong-cache-build
-        uses: action.cache
-        with:
-          path: |
-           public
-           .cache
-           node_modules
-          key: ${{runner.os}}-wmingsong-site-build-${{github.run_id}}
-          restore-keys: |
-           ${{ runner.os }}-wmingsong-site-build-
-        
       - name: Install dependencies
         run: npm install
       - name: Run lint
