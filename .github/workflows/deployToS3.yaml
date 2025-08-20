@@ -13,9 +13,20 @@ jobs:
 
     steps:
       - uses: actions/checkout@v5
-      - uses: Ricesucooker/wmingsongV2@main
+      - uses: actions/setup-node@v2
         with:
           node-version: 24
+      - name: Caching Gatsby
+        id: gatsby-cache-build
+        uses: actions/cache@v2
+        with:
+          path: |
+            public
+            .cache
+            node_modules
+          key: ${{ runner.os }}-gatsby-build-${{ github.run_id }}
+          restore-keys: |
+            ${{ runner.os }}-gatsby-site-build-
       - name: Install dependencies
         run: npm install
       - name: Run lint
@@ -24,7 +35,7 @@ jobs:
         run: npm run Build
 
       - name: Set AWS creds
-        uses: action/checkout@v2
+        uses: aws-actions/configure-aws-credentials@v1
         with:
           aws-access-key-id: ${{ secrets.AWS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
