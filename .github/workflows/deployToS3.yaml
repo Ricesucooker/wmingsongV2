@@ -41,8 +41,3 @@ jobs:
           folder: build
           bucket: ${{ secrets.S3_BUCKET }}
           bucket-region: us-east-1
-          invalidation: /
-          delete-removed: true
-          no-cache: true
-          private: true
-          files-to-include: '{.*/**,**}'
