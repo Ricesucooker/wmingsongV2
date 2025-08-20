@@ -16,17 +16,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 24
-      - name: Caching Gatsby
-        id: gatsby-cache-build
-        uses: actions/cache@v2
-        with:
-          path: |
-            public
-            .cache
-            node_modules
-          key: ${{ runner.os }}-gatsby-build-${{ github.run_id }}
-          restore-keys: |
-            ${{ runner.os }}-gatsby-site-build-
+          
       - name: Install dependencies
         run: npm install
       - name: Run lint
