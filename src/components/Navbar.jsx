@@ -32,16 +32,16 @@ function Navbar() {
 
         <ul className="flex flex-col p-4 space-y-2">
           <li className="p-3 hover:bg-[#708238] hover:text-[#3b3b3b] rounded-md transition-colors cursor-pointer">
-            <NavLink to="/Top" onClick={() => setIsMenuOpen(false)}>Top</NavLink>
+            <NavLink to="/Top" onClick={() => SetIsMenuOpen(false)}>Top</NavLink>
           </li>
           <li className="p-3 hover:bg-[#708238] hover:text-[#3b3b3b] rounded-md transition-colors cursor-pointer">
-            <NavLink to="/Recruiter" onClick={() => setIsMenuOpen(false)}>Recruiter</NavLink>
+            <NavLink to="/Recruiter" onClick={() => SetIsMenuOpen(false)}>Recruiter</NavLink>
           </li>
           <li className="p-3 hover:bg-[#708238] hover:text-[#3b3b3b] rounded-md transition-colors cursor-pointer">
-            <NavLink to="/Photography" onClick={() => setIsMenuOpen(false)}>Photography</NavLink>
+            <NavLink to="/Photography" onClick={() => SetIsMenuOpen(false)}>Photography</NavLink>
           </li>
           <li className="p-3 hover:bg-[#708238] hover:text-[#3b3b3b] rounded-md transition-colors cursor-pointer">
-            <NavLink to="/Project" onClick={() => setIsMenuOpen(false)}>Project</NavLink>
+            <NavLink to="/Project" onClick={() => SetIsMenuOpen(false)}>Project</NavLink>
           </li>
         </ul>
       </div>
