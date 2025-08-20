@@ -23,7 +23,7 @@ import nobrainIcon from "../assets/images/nobrain_icon.jpg";
 
 //images
 import topPicture from "../assets/images/topSprings.jpg";
-import wMing from "../assets/images/wming.jpg";
+import wMing from "../assets/images/wming.JPG";
 import photoOne from  "../assets/images/photo1.jpg";
 import photoTwo from  "../assets/images/photo2.jpg";
 import photoThree from  "../assets/images/photo3.jpg";
