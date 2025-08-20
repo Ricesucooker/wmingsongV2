@@ -36,4 +36,13 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
           aws-region: us-east-1
       - name: Deploy to S3 
-        run: npm run deploy
+        uses: reggionick/s3-deploy@v4
+        with:
+          folder: build
+          bucket: ${{ secrets.S3_BUCKET }}
+          bucket-region: us-east-1
+          invalidation: /
+          delete-removed: true
+          no-cache: true
+          private: true
+          files-to-include: '{.*/**,**}'
