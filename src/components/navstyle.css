@@ -6,3 +6,10 @@
     transform: rotate(20deg);
 
 }
+
+
+@layer utilities{
+    .navItemls{
+     @apply  hover:bg-[#708238] hover:text-[#3b3b3b] rounded-md transition-all cursor-pointer};
+
+}

@@ -16,10 +16,10 @@ import certAzurefd from "../assets/images/MSazure-fund.png";
 
 
 //icons
-import catIcon from "../assets/images/cat_icon.jpg";
-import elainaIcon from "../assets/images/elaina_icon.jpg";
-import pimonIcon from "../assets/images/pimon_icon.jpg";
-import nobrainIcon from "../assets/images/nobrain_icon.jpg";
+import aboutMeIcon from "../assets/images/aboutme.png"
+import photograIcon from "../assets/images/photography.png"
+import projectIcon from "../assets/images/projects.png"
+import recruiterIcon from "../assets/images/recruiter.png"
 
 //images
 import topPicture from "../assets/images/topSprings.jpg";
@@ -54,10 +54,10 @@ export const instaIcon = iconInsta;
 export const linkedinIcon = iconLinkedin;
 export const emailIcon = iconEmail;
 
-export const iconCat = catIcon;
-export const iconElaina = elainaIcon;
-export const iconPaimon = pimonIcon;
-export const iconNobrain = nobrainIcon;
+export const iconMe = aboutMeIcon;
+export const iconRecrui = recruiterIcon;
+export const iconPhoto = photograIcon;
+export const iconProject = projectIcon;
 
 
 export const azureFD = certAzurefd;

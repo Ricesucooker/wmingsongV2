@@ -4,7 +4,6 @@ on:
     push:
         branches:
             - main
-
 jobs:
   build:
     name: Deploy app
@@ -41,4 +40,4 @@ jobs:
           bucket: ${{ secrets.S3_BUCKET }}
           bucket-region: us-east-1
           no-cache: true
-          files-to-include: ".*/*,*/*,**"
+          files-to-include: ".*/*,*/*,**"gi
