@@ -1,7 +1,7 @@
 import Navbar from '../../components/Navbar.jsx'
 import Skillslist from '../../components/Skillslist.jsx';
 import { Social } from '../../components/social.jsx';
-import { heroMP4, githubIcon,emailIcon,linkedinIcon  } from '../../utils/index.js';
+import { heroMP4 } from '../../utils/index.js';
 
 function Top() {
   return ( 
