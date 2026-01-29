@@ -11,11 +11,20 @@
 }
 
 html,
-body{
+body, #root{
   overflow-x: hidden;
   height: 100%;
   background-color: #1C1C1C;
-  color:#F5F5DC;
+  color: #99A1AF;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
 }
 
 
@@ -43,6 +52,14 @@ body{
 
   .page-basiclayout{
     @apply w-full h-lvh
+  }
+
+  .social-icon{
+    @apply w-12 h-12 lg:w-14 lg:h-14
+  }
+
+  .cert-icon{
+    @apply h-16 w-auto
   }
 
 }

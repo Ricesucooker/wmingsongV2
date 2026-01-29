@@ -8,10 +8,14 @@ function Project() {
   return (
     <>
     <Navbar />
-    <main>
-      <div className="flex-center flex-col w-svw">
-        <p className=' font-bold text-3xl' >Coming Soon!..</p>
-        <img src={memeImg} alt='project-image' />
+    <main className='page-basiclayout overflow-y-auto flex gap-8'>
+      <div className="w-full mx-auto px-6 flex flex-col items-center justify-center gap-16">
+        <div>
+          <img src={memeImg} alt='project-image' />
+        </div>
+        <div>
+          <p className='font-bold text-3xl' >Coming Soon!..</p>
+        </div>
       </div>
     </main>
    <Footer />  
